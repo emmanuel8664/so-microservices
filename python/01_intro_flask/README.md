@@ -329,11 +329,13 @@ Puede consultar el código fuente del ejercicio en el repositorio de github del 
 
 ### Actividades
 
-1. Implemente las funcionalidades del contrato restantes
+1. Investigue acerca de la utilidad del comando visudo. Indique el propósito de usar visudo en esta guía
 
-2. Define un contrato para un servicio que permita realizar el escaneo de los puertos abiertos en una red desde un servidor. Define e implemente como mínimo las peticiones para GET (/scans,/scans/ip_address).
+2. Implemente las funcionalidades del contrato restantes
 
-3. Configure los servicios web implementados de tal forma que se ejecuten desde el inicio del sistema operativo.
+3. Define un contrato para un servicio que permita realizar el escaneo de los puertos abiertos en una red desde un servidor. Define e implemente como mínimo las peticiones para GET (/scans,/scans/ip_address).
+
+4. Configure los servicios web implementados de tal forma que se ejecuten desde el inicio del sistema operativo.
 
 **Nota:** Se sugiere la instalación de nmap en el servidor. Tenga en cuenta que nmap cuenta con opciones para generar la salida en xml pero no json.
 
