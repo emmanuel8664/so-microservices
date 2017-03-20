@@ -1,0 +1,2 @@
+http://brunorocha.org/python/flask/flasgger-api-playground-with-flask-and-swagger-ui.html
+https://github.com/rochacbruno/flasgger

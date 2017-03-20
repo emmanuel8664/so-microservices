@@ -1,5 +1,5 @@
 
-### Introducción al lenguaje Python
+### Introducción al microframework Flask
 Universidad ICESI  
 Curso: Sistemas Operativos  
 Docente: Daniel Barragán C.  

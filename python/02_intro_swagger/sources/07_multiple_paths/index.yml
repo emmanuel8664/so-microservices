@@ -1,0 +1,45 @@
+This is a test
+---
+swagger: '2.0'
+info:
+  version: 0.0.0
+  title: Hello World API
+  description: An API that displays a Hello World message
+tags:
+  - API for greetings
+paths:
+  /greeting:
+    get:
+      responses:
+        200:
+          description: Greeting message for get method
+          schema:
+            id: get_greeting
+            properties:
+              result:
+                type: string
+                description: Greeting get test
+                default: 'Hello get'
+    post:
+      responses:
+        200:
+          description: Greeting message for post method
+          schema:
+            id: post_greeting
+            properties:
+              result:
+                type: string
+                description: Greeting post test
+                default: 'Hello post'
+  /goodbye:
+    post:
+      responses:
+        200:
+          description: Goodbye message for post
+          schema:
+            id: post_goodbye
+            properties:
+              result:
+                type: string
+                description: Goodbye post test
+                default: 'Bye post'
