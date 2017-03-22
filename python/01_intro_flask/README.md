@@ -47,6 +47,22 @@ $ cd ~/envs
 $ . flask_env/bin/activate
 ```
 
+#### Wrapper para virtualenv
+
+Virtualenvwrapper es un wrapper para virtualenv el cual permite la activación de ambientes virtuales desde
+cualquier lugar del path del sistema operativo
+
+```
+# pip install virtualenvwrapper
+# su python_user
+$ export WORKON_HOME=~/.virtualenvs
+$ source /usr/bin/virtualenvwrapper.sh
+$ mkvirtualenv test
+$ deactivate
+$ workon test
+$ rmvirtualenv test
+```
+
 #### Instalación de Flask
 
 Con el ambiente activo, instale la libreria Flask
@@ -341,6 +357,7 @@ Puede consultar el código fuente del ejercicio en el repositorio de github del 
 
 ### Referencias
 https://www.w3.org/Protocols/HTTP/HTRESP.html
+http://stackoverflow.com/questions/31143486/virtualenvwrapper-centos7
 
 [1]: images/01_postman.png
 [2]: images/02_get_uri.png
