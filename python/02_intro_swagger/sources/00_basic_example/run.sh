@@ -1,0 +1,1 @@
+curl -X POST -H "Content-Type: application/json" -d '{"course": "operating systems"}' http://localhost:5000/courses
