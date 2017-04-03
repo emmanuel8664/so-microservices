@@ -337,19 +337,32 @@ cualquier lugar del path del sistema operativo
 ```
 # pip install virtualenvwrapper
 # su python_user
-$ export WORKON_HOME=~/.virtualenvs
-$ source /usr/bin/virtualenvwrapper.sh
+```
+
+Para iniciar virtualenvwrapper automáticamente editamos el archivo **.bashrc**
+
+```
+vi ~/bashrc
+```
+
+Y adicionamos las siguientes líneas al final del archivo
+
+```
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
 ```
 
 Algunos comandos útiles son:
 
-```
-$ mkvirtualenv test
-$ deactivate
-$ workon test
-$ pip install Flask
-$ rmvirtualenv test
-```
+
+| Comando | Descripción | 
+|---	|---	|
+| mkvirtualenv test	| Crea el ambiente virtual llamado test	|
+| deactivate	| Si un ambiente virtual esta activo, lo desactiva	|
+| workon test	| Activa el ambiente virtual llamado test	|
+| pip install Flask	| Si el ambiente esta activo, instala la libreria Flask en el ambiente	|
+| rmvirtualenv test	| Elimina el ambiente virtual llamado test	|
+| ls ~/.virtualenvs/ | Lista los ambientes virtuales | 
 
 ### Actividades
 
