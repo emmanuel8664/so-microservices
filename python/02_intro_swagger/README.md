@@ -55,8 +55,8 @@ $ python greeting.py "daniel"
 Realice un script en python que reciba como parametro una cadena de texto con un comando (el comando debe tener argumentos de entrada) y lo ejecute en la consola. Debe usar subprocess.
 
 ### Referencias
-https://flask-restplus.readthedocs.io/en/stable/
-http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
-https://github.com/postrational/rest_api_demo
-http://petstore.swagger.io/
-https://www.youtube.com/watch?v=wC5hxY0RItQ - Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation
+https://flask-restplus.readthedocs.io/en/stable/  
+http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/  
+https://github.com/postrational/rest_api_demo  
+http://petstore.swagger.io/  
+Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation / https://www.youtube.com/watch?v=wC5hxY0RItQ - 
