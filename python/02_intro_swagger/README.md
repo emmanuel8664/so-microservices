@@ -59,3 +59,4 @@ https://flask-restplus.readthedocs.io/en/stable/
 http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
 https://github.com/postrational/rest_api_demo
 http://petstore.swagger.io/
+https://www.youtube.com/watch?v=wC5hxY0RItQ - Swagger tutorial -- How to add Swagger OpenAPI to your REST API documentation
