@@ -6,11 +6,14 @@ Following topics will be study following a microservices point of view
 ### 1. Flask
 Flask microframework examples
 
-### 2. Pytest
+### 2. Swagger
+Api documentation
+
+### 3. Pytest
 Microframework for unitary test
 
-### 3. Continuos Integration
+### 4. Continuos Integration
 Continuos integration using Jenkins
 
-### 4. Platform as a Service
+### 5. Platform as a Service
 Deploying applications to Openshift PaaS

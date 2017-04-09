@@ -17,7 +17,7 @@ En esta guía se asume que cuenta con una máquina virtual con el sistema operat
 
 ### Desarrollo
 
-#### Ejemplo básico 
+#### Ejemplo básico
 
 ```python
 from flask import Flask, jsonify, request
@@ -54,3 +54,8 @@ $ python greeting.py "daniel"
 #### Ejecutando cualquier comando en consola
 Realice un script en python que reciba como parametro una cadena de texto con un comando (el comando debe tener argumentos de entrada) y lo ejecute en la consola. Debe usar subprocess.
 
+### Referencias
+https://flask-restplus.readthedocs.io/en/stable/
+http://michal.karzynski.pl/blog/2016/06/19/building-beautiful-restful-apis-using-flask-swagger-ui-flask-restplus/
+https://github.com/postrational/rest_api_demo
+http://petstore.swagger.io/
