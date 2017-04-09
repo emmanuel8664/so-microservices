@@ -111,7 +111,7 @@ Abra un navegador en la dirección **http://127.0.0.1:8088**, podrá visualizar 
 
 #### Gestión de usuarios con flask_restplus
 
-Cree un archivo de nombre **users.py** con el siguiente código
+En esta sección se realizarán modificaciones sobre el ejemplo del tema anterior **introducción a flask**. Modifique el archivo de nombre **users.py** de acuerdo con el siguiente código
 
 ``` python
 import json
