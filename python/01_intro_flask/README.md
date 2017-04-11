@@ -339,10 +339,10 @@ cualquier lugar del path del sistema operativo
 # su python_user
 ```
 
-Para iniciar virtualenvwrapper automáticamente editamos el archivo **.bashrc**
+Para iniciar virtualenvwrapper al autenticarse como el usuario python_user editamos el archivo **.bashrc**
 
 ```
-vi ~/bashrc
+$ vi ~/.bashrc
 ```
 
 Y adicionamos las siguientes líneas al final del archivo
@@ -350,6 +350,12 @@ Y adicionamos las siguientes líneas al final del archivo
 ```
 export WORKON_HOME=~/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
+```
+
+Para activar los cambios sin necesidad de cerrar la sesión del usuario python_user se debe ejecutar el siguiente comando
+
+```
+$ source ~/.bashrc
 ```
 
 Algunos comandos útiles son:
